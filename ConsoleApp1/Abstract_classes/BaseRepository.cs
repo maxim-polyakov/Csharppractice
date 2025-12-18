@@ -2,7 +2,7 @@
 
 namespace Program;
 
-public class BaseRepository<T> : IRepository<T>
+public abstract class BaseRepository<T> : IRepository<T> where T: class
 {
     protected List<T> _items;
     protected readonly string _filePath;
