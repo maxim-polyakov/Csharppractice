@@ -48,7 +48,12 @@ public class Program
         Console.WriteLine("\nВсе данные сохранены.");
         
         Ogorodnov.Walk(); 
-        Dosaev dos = Dosaev.Instance;
+        Student dos = Dosaev.Instance;
+        
+        Student niz = new Nizam();
+        
+        Student niz1 = new Rusova();
+        
 
         Console.ReadLine();
     }

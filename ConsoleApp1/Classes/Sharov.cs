@@ -6,7 +6,7 @@ public class Sharov : Student
 
     public Sharov(string glasses)
     {
-        this.Glasses = "Hairnt";
+        this.Glasses = glasses;
     }
      public override void Run()
     {

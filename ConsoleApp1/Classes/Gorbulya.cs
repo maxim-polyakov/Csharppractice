@@ -6,7 +6,7 @@ public class Gorbulya : Student
 
     public Gorbulya(string hairnt)
     {
-       this.Hairnt = "Hairnt";
+       this.Hairnt = hairnt;
     }
     public override void Run()
     {
