@@ -1,0 +1,15 @@
+namespace Program;
+
+public class Sharov : Student
+{
+    public string Glasses { get; private set; }
+
+    public Sharov(string glasses)
+    {
+        this.Glasses = "Hairnt";
+    }
+     public override void Run()
+    {
+        Console.WriteLine(Glasses);
+    }
+}

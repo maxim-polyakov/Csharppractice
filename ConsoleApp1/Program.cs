@@ -19,7 +19,7 @@ public class Program
     {
         string clientsFile = "clients.json";
         var clientRepo = new ClientRepository(clientsFile);
-
+        
         Console.WriteLine("--- Начальный список клиентов ---");
         PrintCollection(clientRepo.GetAll());
 
@@ -46,6 +46,9 @@ public class Program
         await clientRepo.SaveAsync();
         await orderRepo.SaveAsync();
         Console.WriteLine("\nВсе данные сохранены.");
+        
+        Ogorodnov.Walk(); 
+        Dosaev dos = Dosaev.Instance;
 
         Console.ReadLine();
     }
