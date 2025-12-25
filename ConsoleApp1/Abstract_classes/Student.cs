@@ -1,6 +1,6 @@
 namespace Program;
 
-public abstract class Student
+public abstract class Student : IHuman
 {
     public abstract void Run();
 }
